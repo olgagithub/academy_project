@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link href="/css/application.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="/javascript/support.js"></script>        
+<script src="/javascript/application.js"></script>
+
+  <title>Motivational Posters</title>
+</head>
+<body>
+	<header>
+		<h1>Build your poster</h1>
+	</header>
+<section id="select-image">
+	<h2>Step.1 Select an image</h2>
+	<p>Enter the keyword to search for images</p>
+	<input id="search-term" type "text">
+	<button id="go-search">
+<!--<img src="/images/go-button-keyboard-hi.png" id="buttonimage">-->
+Go!
+
+	</button>
+	<div id="search-results"></div>
+	<div id="branding"></div> 
+</section>
+<section id="add-text">
+	<h2>Step 2. Add text</h2>
+	<input id="text" type="text" value="Add your text here">
+</section>
+<section id="style-image">
+	<h2>Step3. Style it!</h2>
+<div id="workspace">
+		<p id="caption"></p>
+	</div>
+
+<div id="controls">
+	Left: <input type="number" value="10" id="left">
+	Top: <input type="nimber" value="10" id="top">
+	Width: <input type="number" value="400" id="width"> 
+    Size: <input type="number" value="32" id="size">
+    Colour: <select id="colour">
+          <option>red</option>
+          <option>green</option>
+          <option>white</option>
+          <option>black</option>
+          <option>blue</option>
+          <option>yellow</option>
+          <option>gray</option>
+          <option>orange</option>
+          <option>purple</option>
+
+        </select>
+    Align: <select id="align">
+    <option>left</option>
+    <option>right</option>
+</select>
+
+</div>
+
+<div id="twitter">
+	<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;I built a 'Motivational Posters' page today thanks to @makersacademy!" data-via="olga_dukova">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+
+</section>
+
+<footer> 
+	<!--
+	<a href="http://www.makersacademy.com"><img src="http://makersacademy.com/images/logo.png"></a>
+	  <div>
+    I built this page during a weekend course at 
+    <a href="http://www.makersacademy.com">Makers Academy, a highly selective 12 week coding course in London</a>.
+-->
+  </div>
+  <div>
+    Built by Olga 
+  </div>
+
+</footer>
+
+</body>
+</html>
